@@ -6,11 +6,13 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { InputComponent } from './component/input/input.component';
 import { ExportModule } from "Export.module";
+import { AutocompleteComponent } from './component/autocomplete/autocomplete.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    InputComponent
+    InputComponent,
+    AutocompleteComponent
   ],
   imports: [
     BrowserModule,
