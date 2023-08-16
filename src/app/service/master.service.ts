@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { colorEntity } from 'ColorEntity';
+import { User, colorEntity } from 'ColorEntity';
 
 @Injectable({
   providedIn: 'root',
@@ -19,6 +19,19 @@ export class MasterService {
       {
         code: 'c3',
         name: 'blue',
+      },
+    ];
+  }
+  getNameList(): User[] {
+    return [
+      {
+        name: 'Mary',
+      },
+      {
+        name: 'Shelley',
+      },
+      {
+        name: 'sundar',
       },
     ];
   }
