@@ -26,12 +26,15 @@ export class MasterService {
     return [
       {
         name: 'Mary',
+        code: 'p1',
       },
       {
         name: 'Shelley',
+        code: 'p1',
       },
       {
         name: 'sundar',
+        code: 'p1',
       },
     ];
   }

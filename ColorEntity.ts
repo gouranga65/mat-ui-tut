@@ -4,5 +4,5 @@ export interface colorEntity {
 }
 export interface User {
   name: string;
-  
+  code:string;
 }
